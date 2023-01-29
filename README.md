@@ -1,5 +1,5 @@
 # Trabalho individual Introdução a Data Science - Frederico Cardozo Bianchessi
-## Análise de dados de venda de passagens aéreas através uma operadora de turismo
+## Análise de dados de venda de passagens aéreas através de uma operadora de turismo
 
 ### Introdução
 Este trabalho tem como objetivo analisar duas bases de dados que contém a venda de passagens aéreas de uma operadora de turismo. O objetivo final é fornecer insights valiosos para a empresa, a fim de melhorar a estratégia de vendas e maximizar seus lucros.  
