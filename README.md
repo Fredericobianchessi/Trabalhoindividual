@@ -14,7 +14,7 @@ A segunda base de dados analisada, ao longo do código entitulada de Df_embarque
 ### Dicionário de dados
 #### Base de dados por destino (Df)
 ![image](https://user-images.githubusercontent.com/119333189/215358419-e211ceb6-ef2d-40e6-8804-e5f33375db62.png)
-Obs: A coluna "Business" determina o tipo de passagem, podendo ser nacional, internacional ou consolidadora. Consolidadora são as passagens vendidas através do preço estabelecido pelo fornecedor (companhia aérea), ou seja, sem margem para a operadora de turismo.
+Obs: A coluna "Business" determina o tipo de viagem, podendo ser nacional, internacional ou consolidadora. Consolidadora são as passagens vendidas através do preço estabelecido pelo fornecedor (companhia aérea), ou seja, sem a margem da operadora de turismo.
 #### Base de dados por data de embarque (Df_embarque)
 ![image](https://user-images.githubusercontent.com/119333189/215358800-a16c4780-638c-41a5-a9aa-4ef14acd3aad.png)
 
