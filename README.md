@@ -1,20 +1,13 @@
-# Trabalho individual Introdução a Data Science - Frederico Cardozo Bianchessi
-## Análise de dados de venda de passagens aéreas através de uma operadora de turismo
+# Previsão de Demanda de Passagens Aéreas - Porto Seguro, Bahia
+Este projeto tem como objetivo desenvolver um modelo de regressão para previsão de demanda de passagens aéreas para vôos fretados por uma operadora de turismo com destino à Porto Seguro, Bahia, saindo de Porto Alegre. Para isso será desenvolvido um código em python utilizando as bibliotecas Pandas, para manipulação dos dados, e o módulo Time Series da biblioteca Pycaret para criar o modelo. 
 
-### Introdução
-Este trabalho tem como objetivo analisar duas bases de dados que contém a venda de passagens aéreas de uma operadora de turismo. O objetivo final é fornecer insights valiosos para a empresa, a fim de melhorar a estratégia de vendas e maximizar seus lucros.  
-
-A primeira base de dados analisada, ao longo do código entitulada de Df, contém informações sobre vendas mensais por destino por loja, ou seja, quanto que uma loja vendeu em passagens aéreas para um determinado destino ao longo do mês. A base de dados possui informações a partir de janeiro de 2018 até dezembro de 2019.
-
-A segunda base de dados analisada, ao longo do código entitulada de Df_embarque, contém informações sobre vendas mensais por data de embarque, ou seja, quanto que foi vendido em passagens aéreas para uma determinada data ao longo do mês. A base de dados possui informações a partir de janeiro de 2018 até dezembro de 2019.
- 
-  
- Serão utilizadas técnicas de análise de dados para comparar e entender as tendências e padrões encontrados nas duas bases de dados. 
-
+## Sobre a base de dados
+A base de dados utilizada neste projeto contém a informação de passageiros que compraram a passagem com a operadora de turismo confirmados nos vôos fretados pela operadora, com origem em Porto Alegre com destiono à Porto Seguro, Bahia, entre os anos de 2015 e 2019. Os dados estão organizados em frequência diária e foram obtidos a partir do sitema de gerenciamento da operadora de turismo.
 ### Dicionário de dados
-#### Base de dados por destino (Df)
-![image](https://user-images.githubusercontent.com/119333189/215358419-e211ceb6-ef2d-40e6-8804-e5f33375db62.png)
-Obs: A coluna "Business" determina o tipo de passagem, podendo ser nacional, internacional ou consolidadora. Consolidadora são as passagens vendidas através do preço estabelecido pelo fornecedor (companhia aérea), ou seja, sem margem para a operadora de turismo.
-#### Base de dados por data de embarque (Df_embarque)
-![image](https://user-images.githubusercontent.com/119333189/215358800-a16c4780-638c-41a5-a9aa-4ef14acd3aad.png)
+![image](https://user-images.githubusercontent.com/119333189/230809903-12608c43-113b-4096-965d-4166e3816ea3.png)
+
+## Metodologia
+A metodologia utilizada neste projeto será a univariada, que é uma técnica de previsão de séries temporais que considera apenas a série em si e não outras variáveis externas. Para construir o modelo de previsão de demanda, utilizaremos a biblioteca PyCaret, que é uma plataforma de machine learning de código aberto para Python. O módulo de séries temporais da PyCaret será utilizado para treinar e testar diversos modelos, como ARIMA, SARIMA, Prophet, entre outros.
+
+O primeiro passo será realizar uma análise exploratória dos dados para identificar padrões e tendências na série temporal. Em seguida, utilizaremos o módulo de séries temporais da PyCaret para treinar e testar diversos modelos, ajustando seus hiperparâmetros para obter o melhor desempenho possível. O desempenho dos modelos será avaliado utilizando métricas como erro médio absoluto (MAE), erro quadrático médio (RMSE) e R². Após escolhido o melhor modelo, será feita uma previsão da demanda para os próximos 90 dias utilizando o modelo 
 
