@@ -4,7 +4,7 @@ Este projeto tem como objetivo desenvolver um modelo de regressão para previsã
 ## Sobre a base de dados
 A base de dados utilizada neste projeto está localizada na aba "univariate" do arquivo "Base_analise_voos_colab". Nela contém a informação de passageiros que compraram a passagem com a operadora de turismo confirmados nos voos fretados pela operadora, com origem em Porto Alegre com destiono à Porto Seguro, Bahia, entre os anos de 2015 e 2019. Os dados estão organizados em frequência diária e foram obtidos a partir do sitema de gerenciamento da operadora de turismo.
 ### Dicionário de dados
-![image](https://user-images.githubusercontent.com/119333189/230811567-38822f32-782f-4322-9c76-4d670da970da.png)
+![image](https://user-images.githubusercontent.com/119333189/230820942-d435c449-c3af-4f6f-8c61-7c8716317a56.png)
 
 
 ## Metodologia
