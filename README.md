@@ -4,7 +4,7 @@ Este projeto tem como objetivo desenvolver um modelo de regressão para previsã
 ## Sobre a base de dados
 A base de dados utilizada neste projeto contém a informação de passageiros que compraram a passagem com a operadora de turismo confirmados nos vôos fretados pela operadora, com origem em Porto Alegre com destiono à Porto Seguro, Bahia, entre os anos de 2015 e 2019. Os dados estão organizados em frequência diária e foram obtidos a partir do sitema de gerenciamento da operadora de turismo.
 ### Dicionário de dados
-![image](https://user-images.githubusercontent.com/119333189/230809903-12608c43-113b-4096-965d-4166e3816ea3.png)
+![image](https://user-images.githubusercontent.com/119333189/230811567-38822f32-782f-4322-9c76-4d670da970da.png)
 
 ## Metodologia
 A metodologia utilizada neste projeto será a univariada, que é uma técnica de previsão de séries temporais que considera apenas a série em si e não outras variáveis externas. Para construir o modelo de previsão de demanda, utilizaremos a biblioteca PyCaret, que é uma plataforma de machine learning de código aberto para Python. O módulo de séries temporais da PyCaret será utilizado para treinar e testar diversos modelos, como ARIMA, SARIMA, Prophet, entre outros.
